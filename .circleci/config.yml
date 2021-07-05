@@ -19,16 +19,22 @@ workflows:
           phpunit: "9.5"
           mysql: "8.0.25"
 
+      - approve_release:
+          name: Approve Release
+          type: approval
+          requires:
+            - Test php:7.2, phpunit:7.5, mysql:5.7.34
+            - Test php:8.0, phpunit:9.5, mysql:8.0.23
+
+
       - release:
           name: Release
-          type: approval
           context:
             - dockerhub-credentials
             - github-credentials
             - npm-credentials
           requires:
-            - Test php:7.2, phpunit:7.5, mysql:5.7.34
-            - Test php:8.0, phpunit:9.5, mysql:8.0.23
+            - Approve Release
           filters:
             branches:
               only: main
