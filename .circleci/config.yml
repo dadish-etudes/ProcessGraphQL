@@ -1,10 +1,18 @@
 version: 2.1
+
+.release_branches: &release_branches
+  filters:
+    branches:
+      only:
+        - main
+        - stable
+
 workflows:
   version: 2
-  release-main:
+  main:
     jobs:
       - test:
-          name: Test php:7.2, phpunit:7.5, mysql:5.7.34
+          name: test-php-7.2
           context:
             - dockerhub-credentials
           php: "7.2"
@@ -12,7 +20,7 @@ workflows:
           mysql: "5.7.34"
 
       - test:
-          name: Test php:8.0, phpunit:9.5, mysql:8.0.23
+          name: test-php-8.0
           context:
             - dockerhub-credentials
           php: "8.0"
@@ -20,30 +28,24 @@ workflows:
           mysql: "8.0.25"
 
       - approve_release:
-          name: Approve Release
+          name: approve-release
+          <<: *release_branches
           type: approval
           requires:
-            - Test php:7.2, phpunit:7.5, mysql:5.7.34
-            - Test php:8.0, phpunit:9.5, mysql:8.0.23
-          filters:
-            branches:
-              only:
-                - main
-                - stable
+            - test-php-7.2
+            - test-php-8.0
 
       - release:
           name: Release
+          <<: *release_branches
           context:
             - dockerhub-credentials
             - github-credentials
             - npm-credentials
           requires:
-            - Approve Release
-          filters:
-            branches:
-              only:
-                - main
-                - stable
+            - approve-release
+
+
 
 jobs:
   test:
