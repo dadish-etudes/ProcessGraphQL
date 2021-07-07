@@ -36,7 +36,7 @@ workflows:
             - test-php-8.0
 
       - release:
-          name: Release
+          name: release
           <<: *release_branches
           context:
             - dockerhub-credentials
