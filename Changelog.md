@@ -1,3 +1,11 @@
+# [1.0.0-rc.2](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2021-07-07)
+
+
+### Bug Fixes
+
+* **ci:** filter release and release approval to main & stable branches ([f475051](https://github.com/dadish-etudes/ProcessGraphQL/commit/f47505166301d9ac0def59fc44718fd57c780da3))
+* **ci:** limit release jobs to main and stable branches only ([ff05ddb](https://github.com/dadish-etudes/ProcessGraphQL/commit/ff05ddb9112a44366c4ab9eef18476e0e1c59cbc))
+
 # 1.0.0-rc.1 (2021-07-05)
 
 
