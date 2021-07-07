@@ -1,3 +1,10 @@
+# [1.0.0-rc.3](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2021-07-07)
+
+
+### Bug Fixes
+
+* **ci:** make the job name lowercase ([e3f056f](https://github.com/dadish-etudes/ProcessGraphQL/commit/e3f056f95f95d1ca4d273654c3d8632529806dc2))
+
 # [1.0.0-rc.2](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2021-07-07)
 
 
