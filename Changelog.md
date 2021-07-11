@@ -1,3 +1,11 @@
+# [1.0.0-rc.4](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2021-07-11)
+
+
+### Bug Fixes
+
+* **ci:** create a sync-main-branch job ([dd3c2b1](https://github.com/dadish-etudes/ProcessGraphQL/commit/dd3c2b15e21ec6e03c38d1b6825b14d7d5316df3))
+* **ci:** require release run before sync-main-branch job ([784f170](https://github.com/dadish-etudes/ProcessGraphQL/commit/784f17037a791b01c751d9dcf7dc6f9640f43fb8))
+
 # [1.0.0-rc.3](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2021-07-07)
 
 
