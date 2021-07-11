@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.1...v1.0.2) (2021-07-11)
+
+
+### Bug Fixes
+
+* **ci:** use github access token to push latest to main ([fa79a7c](https://github.com/dadish-etudes/ProcessGraphQL/commit/fa79a7c6a73dc2e7c84c0599f419e2b41a9de3dd))
+
 ## [1.0.2-rc.1](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.1...v1.0.2-rc.1) (2021-07-11)
 
 
