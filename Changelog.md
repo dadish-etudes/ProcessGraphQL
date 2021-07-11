@@ -1,3 +1,12 @@
+## [1.0.1-rc.1](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0...v1.0.1-rc.1) (2021-07-11)
+
+
+### Bug Fixes
+
+* **ci:** remove git status from the sync job ([9dbb30b](https://github.com/dadish-etudes/ProcessGraphQL/commit/9dbb30b6d028427aa963fad2bea1e48ca403e42c))
+* **ci:** show git status before proceeding on sync job ([67e2e20](https://github.com/dadish-etudes/ProcessGraphQL/commit/67e2e20e94b038782a86855145d8a8376d602700))
+* **ci:** sync main branch after a stable release ([0c3adf5](https://github.com/dadish-etudes/ProcessGraphQL/commit/0c3adf593484a5f234e31a06861e62a747b56c43))
+
 # 1.0.0 (2021-07-11)
 
 
