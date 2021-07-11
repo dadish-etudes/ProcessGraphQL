@@ -1,3 +1,28 @@
+# 1.0.0 (2021-07-11)
+
+
+### Bug Fixes
+
+* **ci:** add approval step before release job ([988b713](https://github.com/dadish-etudes/ProcessGraphQL/commit/988b7139c38b0c2abfd9a42ce1dff1c2e2f06534))
+* **ci:** create a sync-main-branch job ([fe76947](https://github.com/dadish-etudes/ProcessGraphQL/commit/fe7694736bea48ba05c132d99c99b8c3067ac311))
+* **ci:** create a sync-main-branch job ([dd3c2b1](https://github.com/dadish-etudes/ProcessGraphQL/commit/dd3c2b15e21ec6e03c38d1b6825b14d7d5316df3))
+* **ci:** filter release and release approval to main & stable branches ([2fda37a](https://github.com/dadish-etudes/ProcessGraphQL/commit/2fda37abdd0ccaffaf947bc53cfe1274a325c625))
+* **ci:** filter release and release approval to main & stable branches ([f475051](https://github.com/dadish-etudes/ProcessGraphQL/commit/f47505166301d9ac0def59fc44718fd57c780da3))
+* **ci:** limit release jobs to main and stable branches only ([7fed9fa](https://github.com/dadish-etudes/ProcessGraphQL/commit/7fed9fa238104418c59fc5038c74fd3019481647))
+* **ci:** limit release jobs to main and stable branches only ([ff05ddb](https://github.com/dadish-etudes/ProcessGraphQL/commit/ff05ddb9112a44366c4ab9eef18476e0e1c59cbc))
+* **ci:** make the job name lowercase ([dbed369](https://github.com/dadish-etudes/ProcessGraphQL/commit/dbed3695212a89acde0916a08278c46b6579ce42))
+* **ci:** make the job name lowercase ([e3f056f](https://github.com/dadish-etudes/ProcessGraphQL/commit/e3f056f95f95d1ca4d273654c3d8632529806dc2))
+* **ci:** require release run before sync-main-branch job ([710ca97](https://github.com/dadish-etudes/ProcessGraphQL/commit/710ca972b499e5a05ad2b271eaca2ab366b31294))
+* **ci:** require release run before sync-main-branch job ([784f170](https://github.com/dadish-etudes/ProcessGraphQL/commit/784f17037a791b01c751d9dcf7dc6f9640f43fb8))
+* **ci:** switch to circleci ([cc19bbc](https://github.com/dadish-etudes/ProcessGraphQL/commit/cc19bbc9d65a5945638067da05773414619e6c39))
+* **dependecy:** bump trim-newlines from 3.0.0 to 3.0.1 ([#37](https://github.com/dadish-etudes/ProcessGraphQL/issues/37)) ([7608e1c](https://github.com/dadish-etudes/ProcessGraphQL/commit/7608e1cb178d29d9bfcd4011667ebaf2650c5cbb))
+* **dependency:** bump glob-parent from 5.1.1 to 5.1.2 ([#41](https://github.com/dadish-etudes/ProcessGraphQL/issues/41)) ([d7030b4](https://github.com/dadish-etudes/ProcessGraphQL/commit/d7030b40ded67f00583faf6123c628ed1a2181d1))
+* **dependency:** bump handlebars from 4.7.6 to 4.7.7 ([#38](https://github.com/dadish-etudes/ProcessGraphQL/issues/38)) ([7eae9e5](https://github.com/dadish-etudes/ProcessGraphQL/commit/7eae9e553f33c9e2a7003172e505c5966ea304dc))
+* **dependency:** bump hosted-git-info from 2.7.1 to 2.8.9 ([#35](https://github.com/dadish-etudes/ProcessGraphQL/issues/35)) ([2260ead](https://github.com/dadish-etudes/ProcessGraphQL/commit/2260ead0286f80aaa6ae4eaa65ad7e9e4730a492))
+* **dependency:** bump lodash from 4.17.20 to 4.17.21 ([#39](https://github.com/dadish-etudes/ProcessGraphQL/issues/39)) ([3dc55ee](https://github.com/dadish-etudes/ProcessGraphQL/commit/3dc55ee2424b3ff39d566d1a0452904565cd6b00))
+* **dependency:** bump normalize-url from 5.3.0 to 5.3.1 ([#40](https://github.com/dadish-etudes/ProcessGraphQL/issues/40)) ([860ee9f](https://github.com/dadish-etudes/ProcessGraphQL/commit/860ee9fd5752ff85bfacfa7968ace66bfddbbc38))
+* **docs:** update todo ([fbfae1e](https://github.com/dadish-etudes/ProcessGraphQL/commit/fbfae1e9ffbc28568cc104291973bd57a0ffdb75))
+
 # [1.0.0-rc.5](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2021-07-11)
 
 
