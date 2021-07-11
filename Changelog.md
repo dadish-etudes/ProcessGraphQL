@@ -1,3 +1,10 @@
+# [1.0.0-rc.5](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2021-07-11)
+
+
+### Bug Fixes
+
+* **docs:** update todo ([fbfae1e](https://github.com/dadish-etudes/ProcessGraphQL/commit/fbfae1e9ffbc28568cc104291973bd57a0ffdb75))
+
 # [1.0.0-rc.4](https://github.com/dadish-etudes/ProcessGraphQL/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2021-07-11)
 
 
