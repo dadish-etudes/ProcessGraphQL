@@ -1,9 +1,5 @@
 # Todo
 
-## Sanitize the selector
-
-The selector string provided by user should be sanitized. Take a look at Ryan's PageService module to get clue on how to properly do that.
-
 ## N+1 Problem
 
 - Solve N+1 problem for FieldtypeFile & FieldtypeImage.
