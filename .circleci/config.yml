@@ -137,7 +137,6 @@ jobs:
       - run:
           name: Merge stabe to main
           command: |
-            git status
             git checkout stable
             git pull --rebase
             git checkout main
